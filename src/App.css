@@ -1,10 +1,25 @@
-.App {
+.Center {
   text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+img {
+  width: 50%;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  left: 0 ; right: 0; bottom: 0;
+  background-color: #282c34;
+  color: antiquewhite;
 }
 
 @media (prefers-reduced-motion: no-preference) {
